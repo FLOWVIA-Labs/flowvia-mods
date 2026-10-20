@@ -1,0 +1,21 @@
+{
+  "name": "clutch",
+  "version": "0.3.0",
+  "description": "Sports minigames under the spinner: penalty shootout, batting and a 3-point contest, played with the Space key while Claude works.",
+  "author": {
+    "name": "FLOWVIA Labs",
+    "url": "https://github.com/FLOWVIA-Labs"
+  },
+  "homepage": "https://github.com/FLOWVIA-Labs/flowvia-mods",
+  "repository": "https://github.com/FLOWVIA-Labs/flowvia-mods",
+  "license": "MIT",
+  "userConfig": {
+    "language": {
+      "type": "string",
+      "title": "Language",
+      "description": "Display language: auto follows Claude's language setting.",
+      "options": ["auto", "ko", "en"],
+      "default": "auto"
+    }
+  }
+}

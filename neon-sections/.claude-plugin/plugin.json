@@ -1,0 +1,158 @@
+{
+  "name": "neon-sections",
+  "version": "0.6.1",
+  "description": "Answer sections and a collapsible work log",
+  "author": {
+    "name": "FLOWVIA Labs",
+    "url": "https://github.com/FLOWVIA-Labs"
+  },
+  "homepage": "https://github.com/FLOWVIA-Labs/flowvia-mods",
+  "repository": "https://github.com/FLOWVIA-Labs/flowvia-mods",
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "foldTools": {
+      "type": "boolean",
+      "title": "Fold tool calls",
+      "default": true,
+      "description": "Fold completed tool calls and progress notes into a single Work log row"
+    },
+    "conclusionColorDark": {
+      "type": "string",
+      "title": "Conclusion · dark",
+      "default": "#00D7FF",
+      "description": "Conclusion · dark (#RRGGBB)"
+    },
+    "conclusionColorLight": {
+      "type": "string",
+      "title": "Conclusion · light",
+      "default": "#0087AF",
+      "description": "Conclusion · light (#RRGGBB)"
+    },
+    "attentionColorDark": {
+      "type": "string",
+      "title": "Needs your input · dark",
+      "default": "#FFD700",
+      "description": "Needs your input · dark (#RRGGBB)"
+    },
+    "attentionColorLight": {
+      "type": "string",
+      "title": "Needs your input · light",
+      "default": "#AF8700",
+      "description": "Needs your input · light (#RRGGBB)"
+    },
+    "nextColorDark": {
+      "type": "string",
+      "title": "Next steps · dark",
+      "default": "#FF5FFF",
+      "description": "Next steps · dark (#RRGGBB)"
+    },
+    "nextColorLight": {
+      "type": "string",
+      "title": "Next steps · light",
+      "default": "#D700D7",
+      "description": "Next steps · light (#RRGGBB)"
+    },
+    "conclusionGlow": {
+      "type": "boolean",
+      "title": "Conclusion · Double-border glow",
+      "description": "Toggle Conclusion · Double-border glow",
+      "default": false
+    },
+    "conclusionLatestOnly": {
+      "type": "boolean",
+      "title": "Conclusion · Neon on latest only",
+      "description": "Toggle Conclusion · Neon on latest only",
+      "default": false
+    },
+    "conclusionHover": {
+      "type": "boolean",
+      "title": "Conclusion · Highlight on hover",
+      "description": "Toggle Conclusion · Highlight on hover",
+      "default": false
+    },
+    "conclusionBlink": {
+      "type": "boolean",
+      "title": "Conclusion · Blink",
+      "description": "Toggle Conclusion · Blink",
+      "default": false
+    },
+    "conclusionBreathe": {
+      "type": "boolean",
+      "title": "Conclusion · Breathe",
+      "description": "Toggle Conclusion · Breathe",
+      "default": false
+    },
+    "attentionGlow": {
+      "type": "boolean",
+      "title": "Needs your input · Double-border glow",
+      "description": "Toggle Needs your input · Double-border glow",
+      "default": false
+    },
+    "attentionLatestOnly": {
+      "type": "boolean",
+      "title": "Needs your input · Neon on latest only",
+      "description": "Toggle Needs your input · Neon on latest only",
+      "default": false
+    },
+    "attentionHover": {
+      "type": "boolean",
+      "title": "Needs your input · Highlight on hover",
+      "description": "Toggle Needs your input · Highlight on hover",
+      "default": false
+    },
+    "attentionBlink": {
+      "type": "boolean",
+      "title": "Needs your input · Blink",
+      "description": "Toggle Needs your input · Blink",
+      "default": false
+    },
+    "attentionBreathe": {
+      "type": "boolean",
+      "title": "Needs your input · Breathe",
+      "description": "Toggle Needs your input · Breathe",
+      "default": false
+    },
+    "nextGlow": {
+      "type": "boolean",
+      "title": "Next steps · Double-border glow",
+      "description": "Toggle Next steps · Double-border glow",
+      "default": false
+    },
+    "nextLatestOnly": {
+      "type": "boolean",
+      "title": "Next steps · Neon on latest only",
+      "description": "Toggle Next steps · Neon on latest only",
+      "default": false
+    },
+    "nextHover": {
+      "type": "boolean",
+      "title": "Next steps · Highlight on hover",
+      "description": "Toggle Next steps · Highlight on hover",
+      "default": false
+    },
+    "nextBlink": {
+      "type": "boolean",
+      "title": "Next steps · Blink",
+      "description": "Toggle Next steps · Blink",
+      "default": false
+    },
+    "nextBreathe": {
+      "type": "boolean",
+      "title": "Next steps · Breathe",
+      "description": "Toggle Next steps · Breathe",
+      "default": false
+    },
+    "language": {
+      "type": "string",
+      "title": "Language",
+      "description": "Use auto to follow the Claude Code language setting, or choose ko or en",
+      "options": [
+        "auto",
+        "ko",
+        "en"
+      ],
+      "default": "auto"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2023", "lib": ["es2023"], "types": [],
+    "module": "esnext", "moduleResolution": "bundler",
+    "strict": true, "noUncheckedIndexedAccess": true,
+    "noEmit": true, "skipLibCheck": true,
+    "jsx": "react", "jsxFactory": "h", "jsxFragmentFactory": "Fragment"
+  },
+  "include": [
+    "neon-sections/hooks", "neon-sections/types", "neon-sections/tests",
+    "clutch/hooks", "clutch/tests",
+    "claude-code-api/claude-code.d.ts"
+  ]
+}

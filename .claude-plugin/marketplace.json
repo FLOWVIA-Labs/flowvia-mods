@@ -1,0 +1,21 @@
+{
+  "name": "flowvia-mods",
+  "owner": {
+    "name": "FLOWVIA Labs"
+  },
+  "plugins": [
+    {
+      "name": "neon-sections",
+      "source": "./neon-sections",
+      "version": "0.6.1"
+    },
+    {
+      "name": "clutch",
+      "source": "./clutch",
+      "version": "0.3.0"
+    }
+  ],
+  "metadata": {
+    "description": "Claude Code mods for answer sections and interactive sports minigames."
+  }
+}

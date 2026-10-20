@@ -1,0 +1,4 @@
+docs/handoff/
+claude-code-api/claude-code.d.ts
+**/.claude-plugin/types/
+.DS_Store
